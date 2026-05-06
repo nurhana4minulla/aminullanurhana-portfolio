@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurhana C. Aminulla | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav data-animate="fade-down">
+        <div class="nav-content">
+            <!-- <div class="logo">&lt;Nurhana /&gt;</div> -->
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#internship">Internship</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero" class="section-hero">
+        <div class="container hero-layout">
+            <div class="hero-text" data-animate="slide-right">
+                <h1 class="name">Nurhana C. Aminulla.</h1>
+                <h2 class="typing-container"><span id="typewriter"></span><span class="cursor">|</span></h2>
+                <p class="summary">Motivated BSCS student crafting full-stack web and mobile experiences. Building robust systems, managing databases, and constantly solving problems.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">Explore My Work</a>
+                    <a href="#internship" class="btn secondary">Internship Log</a>
+                </div>
+            </div>
+            
+            <div class="hero-image-container" data-animate="slide-left">
+                <div class="image-ring">
+                    <img src="img/picture.png" alt="Nurhana C. Aminulla">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section-blueprint">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">01. <span>About & Skills</span></h2>
+            <div class="bento-grid">
+                <div class="bento-box bento-large" data-animate="fade-up" style="transition-delay: 100ms;">
+                    <h3>Languages</h3>
+                    <div class="tech-tags">
+                        <span>PHP</span><span>Kotlin</span><span>C++</span><span>JavaScript</span><span>Python</span><span>Java</span><span>SQL</span>
+                    </div>
+                </div>
+                <div class="bento-box" data-animate="fade-up" style="transition-delay: 200ms;">
+                    <h3>Web Dev</h3>
+                    <p>HTML, CSS, Bootstrap, Tailwind, Django</p>
+                </div>
+                <div class="bento-box" data-animate="fade-up" style="transition-delay: 300ms;">
+                    <h3>Databases</h3>
+                    <p>MySQL, Firebase, SQLite</p>
+                </div>
+                <div class="bento-box bento-large" data-animate="fade-up" style="transition-delay: 400ms;">
+                    <h3>Tools & Workflow</h3>
+                    <p>Git/GitHub, VS Code, Android Studio, Figma, XAMPP, Postman</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-projects">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">02. <span>Featured Projects</span></h2>
+            <div class="project-grid">
+                <div class="project-card glass-panel" data-animate="slide-up" style="transition-delay: 100ms;">
+                    <h3>Student Admission System</h3>
+                    <p>A comprehensive web-based admission system streamlining applications. Features real-time administrative notifications and automated email confirmations via PHPMailer.</p>
+                    <div class="tech-stack"><span>PHP (OOP)</span><span>MySQL</span><span>Bootstrap</span></div>
+                    <a href="https://github.com/nurhana4minulla/StudentInformationAdmissionSystem" target="_blank" class="github-link">View Source &rarr;</a>
+                </div>
+
+                <div class="project-card glass-panel" data-animate="slide-up" style="transition-delay: 200ms;">
+                    <h3>Memoir App</h3>
+                    <p>A privacy-focused Android application merging a photo gallery with a personal diary. Migrated from local SQLite storage to cloud-based Firebase for real-time sync.</p>
+                    <div class="tech-stack"><span>Kotlin</span><span>Firebase</span><span>Android Jetpack</span></div>
+                    <a href="https://github.com/nurhana4minulla/MemoirFinal" target="_blank" class="github-link">View Source &rarr;</a>
+                </div>
+
+                <div class="project-card glass-panel" data-animate="slide-up" style="transition-delay: 300ms;">
+                    <h3>CCS Inventory System</h3>
+                    <p>Centralized web interface for equipment lending. Features distinct portals for admins and students, providing real-time tracking of assets.</p>
+                    <div class="tech-stack"><span>HTML/CSS</span><span>JavaScript</span><span>Tailwind</span></div>
+                    <a href="https://github.com/IsnajiInna/GROUP3" target="_blank" class="github-link">View Source &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="internship" class="section-timeline">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">03. <span>Internship Spotlight</span></h2>
+            
+            <div class="internship-intro glass-panel" data-animate="fade-up">
+                <p><strong>Role:</strong> Web Development Intern | <strong>Agency:</strong> DTI-IX Regional Office</p>
+                <p><strong>Project:</strong> JO/COS Management System</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-animate="slide-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <div class="timeline-image">
+                            <img src="img/weekly/week1.jpg" alt="Week 1 Preview" onerror="this.style.display='none'">
+                        </div>
+                        <h3>Week 1: Requirements Gathering</h3>
+                        <ul>
+                            <li>Analyzed physical PDS forms to identify required data points.</li>
+                            <li>Designed the system's UI using Figma, creating wireframes for the dashboard.</li>
+                        </ul>
+                        <a href="reports.html#week1" class="read-more-link">Read Detailed Report &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="slide-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <div class="timeline-image">
+                            <img src="img/weekly/week2.png" alt="Week 2 Preview" onerror="this.style.display='none'">
+                        </div>
+                        <h3>Week 2: Security Implementation</h3>
+                        <ul>
+                            <li>Established project directory and core stack (PHP, JS, MySQL).</li>
+                            <li>Implemented a Global Sanitization Hook to filter inputs, preventing XSS vulnerabilities.</li>
+                        </ul>
+                        <a href="reports.html#week2" class="read-more-link">Read Detailed Report &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="slide-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <div class="timeline-image">
+                            <img src="img/weekly/week3.png" alt="Week 3 Preview" onerror="this.style.display='none'">
+                        </div>
+                        <h3>Week 3: Feature Scaling</h3>
+                        <ul>
+                            <li>Finalized CRUD modules and integrated dynamic KPI logic.</li>
+                            <li>Implemented conditional UI rendering and built a CSV export feature.</li>
+                        </ul>
+                        <a href="reports.html#week3" class="read-more-link">Read Detailed Report &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="slide-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <div class="timeline-image">
+                            <img src="img/weekly/week4.jpg" alt="Week 4 Preview" onerror="this.style.display='none'">
+                        </div>
+                        <h3>Week 4: QA & Revisions</h3>
+                        <ul>
+                            <li>Refined the dashboard logic based on supervisor feedback to improve user experience.</li>
+                        </ul>
+                        <a href="reports.html#week4" class="read-more-link">Read Detailed Report &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="slide-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h3>Week 5: Research & Development</h3>
+                        <ul>
+                            <li>Conducted technical feasibility testing for the PDF generation module.</li>
+                            <li>Created Proof of Concept (PoC) prototypes using FPDI and Dompdf libraries.</li>
+                        </ul>
+                        <a href="reports.html#week5" class="read-more-link">Read Detailed Report &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="slide-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <div class="timeline-image">
+                            <img src="img/weekly/week6.png" alt="Week 6 Preview" onerror="this.style.display='none'">
+                        </div>
+                        <h3>Week 6: Automated PDS Generation</h3>
+                        <ul>
+                            <li>Obtained approval for the automated Personal Data Sheet generation feature.</li>
+                            <li>Engineered a coordinate-stamping system to accurately map database variables onto digital documents.</li>
+                        </ul>
+                        <a href="reports.html#week6" class="read-more-link">Read Detailed Report &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="slide-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <div class="timeline-image">
+                            <img src="img/weekly/week7.png" alt="Week 7 Preview" onerror="this.style.display='none'">
+                        </div>
+                        <h3>Week 7: Certification Module</h3>
+                        <ul>
+                            <li>Deployed necessary system fixes and optimized document mapping logic.</li>
+                            <li>Developed generative printable reports for worker "Certifications".</li>
+                        </ul>
+                        <a href="reports.html#week7" class="read-more-link">Read Detailed Report &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="slide-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <div class="timeline-image">
+                            <img src="img/weekly/week8.png" alt="Week 8 Preview" onerror="this.style.display='none'">
+                        </div>
+                        <h3>Week 8: Advanced Features & Live Data</h3>
+                        <ul>
+                            <li>Implemented SQL database backups, account settings, and refined the logout process.</li>
+                            <li>Conducted live data entry, identifying edge cases like nullable Office IDs.</li>
+                        </ul>
+                        <a href="reports.html#week8" class="read-more-link">Read Detailed Report &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="slide-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <div class="timeline-image">
+                            <img src="img/weekly/week9.png" alt="Week 9 Preview" onerror="this.style.display='none'">
+                        </div>
+                        <h3>Week 9: Stabilization</h3>
+                        <ul>
+                            <li>Finalized patches for data-entry edge cases identified during testing.</li>
+                            <li>Ensured data integrity across all generated reports.</li>
+                        </ul>
+                        <a href="reports.html#week9" class="read-more-link">Read Detailed Report &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <div class="container" data-animate="fade-up">
+            <h2>Let's Connect</h2>
+            <div class="social-links">
+                <a href="https://github.com/nurhana4minulla" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/nurhana-aminulla-5773543a7" target="_blank">LinkedIn</a>
+                <a href="mailto:ae202401727@wmsu.edu.ph">Email Me</a>
+            </div>
+            <p>&copy; 2026 Nurhana C. Aminulla. Crafted with code.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
