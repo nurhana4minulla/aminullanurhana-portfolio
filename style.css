@@ -550,7 +550,6 @@ footer p {
 
 /* reports */
 
-/* --- Detailed Reports Page Specific Styles --- */
 .report-grid {
     display: grid;
     grid-template-columns: 1.8fr 1.2fr;
