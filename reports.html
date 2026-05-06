@@ -507,6 +507,139 @@
         </div>
     </section>
 
+    <section id="week8" class="section-timeline">
+        <div class="container">
+            <div class="report-header" data-animate="fade-up">
+                <h2 class="section-title">08. <span>Week 8: April 21 - April 24</span></h2>
+                <div class="tech-tags" style="margin-bottom: 30px;">
+                    <span>Total Hours: 22</span>
+                    <span>System Maintenance</span>
+                    <span>Database Refactoring</span>
+                    <span>Live Data Entry & UAT</span>
+                </div>
+            </div>
+
+            <div class="report-grid">
+                
+                <div class="report-main-content">
+                    <div class="glass-panel" data-animate="slide-right" style="margin-bottom: 30px;">
+                        <h3 class="report-subtitle">Activities & Assignments</h3>
+                        <p>This week began with proactive system enhancements while awaiting my supervisor. I developed and integrated a downloadable SQL database backup feature, an account settings module, and resolved logic bugs related to the log out process and employee Active/Inactive status flags.</p>
+                        <p>Later in the week, my supervisor, Ma'am Sharon, provided physical copies of the actual Personal Data Sheet (PDS) to begin live data entry. During this process, I discovered several discrepancies between the physical forms and my database schema, prompting me to pause data entry and execute immediate structural updates to the system (such as handling missing IDs and dynamic employment types) to accommodate the real-world data.</p>
+                    </div>
+
+                    <div class="glass-panel" data-animate="slide-right" style="margin-bottom: 30px;">
+                        <h3 class="report-subtitle">Accomplishments & Achievements</h3>
+                        <p><strong>System Maintenance & Logic Resolution:</strong> Successfully developed secure administrative features, including an SQL backup tool and an account settings page. Fixed core logic issues, ensuring the Active/Inactive employee status now accurately automates based on real-time contract start and end dates.</p>
+                        <p><strong>Database Refactoring & UI/UX:</strong> Identified and patched critical database limitations based on real-world PDS testing (e.g., adding "From and To" inclusive dates for educational background, and allowing multiple or empty work experiences). Enhanced the employment type module to accept an "Others" option with a dynamic "Specify" text field.</p>
+                    </div>
+
+                    <div class="glass-panel" data-animate="slide-right" style="margin-bottom: 30px;">
+                        <h3 class="report-subtitle">Challenges & Problem Solving</h3>
+                        <p>The primary challenge this week occurred when transitioning from development to live data entry. Upon receiving the actual physical PDS forms, I realized my system's strict validation rules were blocking entry. For instance, some employees did not have an "Office ID," which my system previously required. Additionally, the physical form required multiple past work experiences and inclusive educational dates that my database wasn't originally structured to capture.</p>
+                        <p>To resolve this, I temporarily halted data entry, altered the backend SQL schema, and redesigned the frontend UI—using JavaScript arrays—to perfectly mirror the flexible nature of the official Civil Service PDS before resuming data input.</p>
+                    </div>
+                </div>
+
+                <div class="report-sidebar">
+                    
+                    <div class="glass-panel" data-animate="slide-left" style="margin-bottom: 30px;">
+                        <h3 class="report-subtitle">Skills Applied</h3>
+                        <ul class="styled-list">
+                            <li><strong>Backend PHP & SQL:</strong> Modified database schema and updated backend scripts to process arrays of data via foreach loops, allowing for multiple work experiences.</li>
+                            <li><strong>Frontend JavaScript:</strong> Wrote dynamic JS functions to toggle input fields (e.g., showing a "Specify" text box) and added DOM manipulation for multi-row form capabilities.</li>
+                            <li><strong>System Administration:</strong> Developed a secure SQL backup feature and refined user session controls to enhance system security and data preservation.</li>
+                        </ul>
+                    </div>
+
+                    <div class="glass-panel" data-animate="slide-left" style="margin-bottom: 30px;">
+                        <h3 class="report-subtitle">Learning Outcomes</h3>
+                        <ul class="styled-list">
+                            <li><strong>Technical:</strong> Gained hands-on experience in database schema modification (<code>ALTER TABLE</code>) and refactoring static HTML forms into dynamic, multi-row arrays.</li>
+                            <li><strong>Professional (UAT):</strong> Learned the critical importance of User Acceptance Testing with real-world data, realizing systems require heavy modification for physical edge cases.</li>
+                            <li><strong>Industry Insight:</strong> Understood that government HR data requires extreme flexibility; strict database rules must balance against missing or varied physical records.</li>
+                        </ul>
+                    </div>
+
+                    <div class="glass-panel" data-animate="slide-left">
+                        <h3 class="report-subtitle">Goals for Next Week</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Resume and complete the encoding of physical PDS forms into the newly updated system. Closely monitor the system to quickly catch/resolve bugs and consult with management to ensure profiles match expectations.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="week9" class="section-timeline">
+        <div class="container">
+            <div class="report-header" data-animate="fade-up">
+                <h2 class="section-title">09. <span>Week 9: April 28 - April 30</span></h2>
+                <div class="tech-tags" style="margin-bottom: 30px;">
+                    <span>Total Hours: 16</span>
+                    <span>System Refinement</span>
+                    <span>Quality Assurance (QA)</span>
+                    <span>Software Testing</span>
+                </div>
+            </div>
+
+            <div class="report-gallery" data-animate="fade-up" style="grid-template-columns: repeat(2, 1fr);">
+                <div class="gallery-img"><img src="img/weekly/week9_photo1.jpg" alt="Week 9 Photo 1" onerror="this.style.display='none'"></div>
+                <div class="gallery-img"><img src="img/weekly/week9_photo2.png" alt="Week 9 Photo 2" onerror="this.style.display='none'"></div>
+            </div>
+
+            <div class="report-grid">
+                
+                <div class="report-main-content">
+                    <div class="glass-panel" data-animate="slide-right" style="margin-bottom: 30px;">
+                        <h3 class="report-subtitle">Activities & Assignments</h3>
+                        <p>This week's primary focus was finalizing system modifications and conducting comprehensive Quality Assurance (QA) testing. I successfully resolved the database and UI issues identified last week regarding the Personal Data Sheet (PDS) form, including modifying the backend to accept nullable Office IDs, adding "From and To" inclusive dates for educational backgrounds, allowing multiple (or empty) work experiences, and enabling dynamic "Specify" inputs.</p>
+                        <p>I was scheduled to begin bulk data entry using the actual physical PDS files; however, my supervisor was unavailable to provide the documents. Consequently, I pivoted my task assignment and dedicated the time to rigorous, end-to-end testing of the entire HR system to ensure the new dynamic form arrays and PDF generation logic functioned flawlessly without errors.</p>
+                    </div>
+
+                    <div class="glass-panel" data-animate="slide-right" style="margin-bottom: 30px;">
+                        <h3 class="report-subtitle">Accomplishments & Achievements</h3>
+                        <p><strong>System Refinement:</strong> Successfully completed the integration of dynamic, multi-row inputs for Education and Work Experience, fully aligning the web system with the official Civil Service PDS format.</p>
+                        <p><strong>Quality Assurance (QA):</strong> Conducted extensive manual testing across all modules (Add, Edit, View, and Delete), effectively identifying and resolving minor UI overlapping issues within the multi-step forms.</p>
+                    </div>
+
+                    <div class="glass-panel" data-animate="slide-right" style="margin-bottom: 30px;">
+                        <h3 class="report-subtitle">Challenges & Problem Solving</h3>
+                        <p>The main challenge this week was logistical rather than technical. I was blocked from proceeding with my primary planned task—live data encoding—because the physical PDS documents were inaccessible due to my supervisor's absence.</p>
+                        <p>Instead of remaining idle, I demonstrated initiative and adaptability by shifting my focus to an equally important task: system testing. By utilizing the available time to thoroughly test the newly implemented features and UI adjustments, I ensured that when the data entry phase does begin, it will not be interrupted by unforeseen software bugs.</p>
+                    </div>
+                </div>
+
+                <div class="report-sidebar">
+                    
+                    <div class="glass-panel" data-animate="slide-left" style="margin-bottom: 30px;">
+                        <h3 class="report-subtitle">Skills Applied</h3>
+                        <ul class="styled-list">
+                            <li><strong>Software Testing & QA:</strong> Executed manual end-to-end testing on the employee management modules, verifying that edge cases do not crash the database.</li>
+                            <li><strong>Frontend UI/UX Logic:</strong> Finalized the JavaScript logic for multi-step forms, ensuring dynamic inputs functioned correctly across all browsers.</li>
+                            <li><strong>Adaptability & Time Mgt:</strong> Reallocated working hours efficiently when planned resources were unavailable, ensuring continuous project progression.</li>
+                        </ul>
+                    </div>
+
+                    <div class="glass-panel" data-animate="slide-left" style="margin-bottom: 30px;">
+                        <h3 class="report-subtitle">Learning Outcomes</h3>
+                        <ul class="styled-list">
+                            <li><strong>Technical:</strong> Deepened my experience in software testing methodologies, specifically testing DOM manipulation scripts (JavaScript) to ensure dynamic fields generate and submit correct arrays.</li>
+                            <li><strong>Professional:</strong> Learned how to independently pivot to productive, value-adding tasks (like QA testing) when blocked by external dependencies.</li>
+                            <li><strong>Industry Insight:</strong> Realized that "finished" code still requires dedicated testing phases. Actively trying to break the system is crucial for delivering a reliable final product.</li>
+                        </ul>
+                    </div>
+
+                    <div class="glass-panel" data-animate="slide-left">
+                        <h3 class="report-subtitle">Goals for Next Week</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Retrieve the physical PDS forms to officially commence the live data entry phase. Present the fully functional, updated system to management to demonstrate the automated PDF feature and dynamic form fields.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <h2>&lt;End of Log /&gt;</h2>
