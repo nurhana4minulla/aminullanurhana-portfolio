@@ -11,11 +11,12 @@
 
     <nav data-animate="fade-down">
         <div class="nav-content">
-            <!-- <div class="logo">&lt;Nurhana /&gt;</div> -->
+            <a href="#hero" class="logo" style="text-decoration: none;">HANA</a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#internship">Internship</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -44,6 +45,12 @@
         <div class="container">
             <h2 class="section-title" data-animate="fade-up">01. <span>About & Skills</span></h2>
             <div class="bento-grid">
+                
+                <div class="bento-box bento-wide" data-animate="fade-up" style="transition-delay: 50ms;">
+                    <h3>About Me</h3>
+                    <p>I'm a 19-year-old, 2nd-year Bachelor of Science in Computer Science student at Western Mindanao State University. I specialize in bridging the gap between clean, intuitive user interfaces and robust, secure backend architectures. Whether I'm designing complex relational databases or crafting responsive web apps, I thrive on turning complex problems into elegant technical solutions.</p>
+                </div>
+
                 <div class="bento-box bento-large" data-animate="fade-up" style="transition-delay: 100ms;">
                     <h3>Languages</h3>
                     <div class="tech-tags">
@@ -94,7 +101,7 @@
         </div>
     </section>
 
-<section id="internship" class="section-timeline">
+    <section id="internship" class="section-timeline">
         <div class="container">
             <h2 class="section-title" data-animate="fade-up">03. <span>Internship Spotlight</span></h2>
             
@@ -103,9 +110,14 @@
                 <p><strong>Project:</strong> JO/COS Management System</p>
             </div>
             
-            <div class="timeline">
+            <div class="internship-actions" data-animate="fade-up" style="text-align: center; margin-bottom: 50px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                <button id="toggle-timeline-btn" class="btn primary">Show Weekly Timeline</button>
+                <a href="reports.html" class="btn secondary">Go to Detailed Reports</a>
+            </div>
+
+            <div id="timeline-container" class="timeline hidden-timeline">
                 
-                <div class="timeline-item" data-animate="slide-right">
+                <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content glass-panel">
                         <div class="timeline-image">
@@ -120,7 +132,7 @@
                     </div>
                 </div>
 
-                <div class="timeline-item" data-animate="slide-left">
+                <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content glass-panel">
                         <div class="timeline-image">
@@ -135,7 +147,7 @@
                     </div>
                 </div>
 
-                <div class="timeline-item" data-animate="slide-right">
+                <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content glass-panel">
                         <div class="timeline-image">
@@ -150,7 +162,7 @@
                     </div>
                 </div>
 
-                <div class="timeline-item" data-animate="slide-left">
+                <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content glass-panel">
                         <div class="timeline-image">
@@ -165,7 +177,7 @@
                     </div>
                 </div>
 
-                <div class="timeline-item" data-animate="slide-right">
+                <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content glass-panel">
                         <h3>Week 5: Research & Development (R&D)</h3>
@@ -177,7 +189,7 @@
                     </div>
                 </div>
 
-                <div class="timeline-item" data-animate="slide-left">
+                <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content glass-panel">
                         <div class="timeline-image">
@@ -192,7 +204,7 @@
                     </div>
                 </div>
 
-                <div class="timeline-item" data-animate="slide-right">
+                <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content glass-panel">
                         <div class="timeline-image">
@@ -207,7 +219,7 @@
                     </div>
                 </div>
 
-                <div class="timeline-item" data-animate="slide-left">
+                <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content glass-panel">
                         <div class="timeline-image">
@@ -222,7 +234,7 @@
                     </div>
                 </div>
 
-                <div class="timeline-item" data-animate="slide-right">
+                <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content glass-panel">
                         <div class="timeline-image">
@@ -238,11 +250,10 @@
                 </div>
 
             </div>
+        </div>
     </section>
 
-    
-
-    <footer>
+    <footer id="contact">
         <div class="container" data-animate="fade-up">
             <h2>Let's Connect</h2>
             <div class="social-links">
@@ -250,7 +261,7 @@
                 <a href="https://www.linkedin.com/in/nurhana-aminulla-5773543a7" target="_blank">LinkedIn</a>
                 <a href="mailto:ae202401727@wmsu.edu.ph">Email Me</a>
             </div>
-            <p>&copy; 2026 Nurhana C. Aminulla. Crafted with code.</p>
+            <p>&copy; 2026 Nurhana C. Aminulla.</p>
         </div>
     </footer>
 

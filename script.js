@@ -1,10 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     
-    // --- 1. Typewriter Effect Logic ---
     const words = [
             "> BSCS Student",
             "> Creative Thinker",
-            "> Music Lover & Night Owl",
+            "> Night Owl",
             "> Future Tech Innovator"
         ];
     let i = 0;
@@ -45,7 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
         typingEffect(); 
     }
 
-    // --- 2. Scroll Animation Logic ---
     const animatedElements = document.querySelectorAll('[data-animate]');
     
     // Safety check: Only run if there are elements to animate
@@ -63,4 +61,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
         animatedElements.forEach(el => observer.observe(el));
     }
+
+    const toggleBtn = document.getElementById('toggle-timeline-btn');
+    const timelineContainer = document.getElementById('timeline-container');
+
+    if (toggleBtn && timelineContainer) {
+        toggleBtn.addEventListener('click', () => {
+            // Toggle the CSS class
+            timelineContainer.classList.toggle('hidden-timeline');
+            timelineContainer.classList.toggle('show-timeline');
+
+            // Change button text based on state
+            if (timelineContainer.classList.contains('show-timeline')) {
+                toggleBtn.innerHTML = "Hide Weekly Timeline";
+            } else {
+                toggleBtn.innerHTML = "Show Weekly Timeline";
+            }
+        });
+    }
+
 });
