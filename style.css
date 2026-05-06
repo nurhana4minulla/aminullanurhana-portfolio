@@ -1,5 +1,4 @@
 :root {
-    /* Obsidian & Electric Amber Theme */
     --bg-base: #0a0a0c;
     --bg-surface: #121216;
     --glass-bg: rgba(20, 20, 24, 0.5);
@@ -7,10 +6,9 @@
     --text-main: #f0f0f0;
     --text-muted: #8a8a93;
     
-    /* Amber, Orange, & Cyan Accents */
-    --accent-primary: #ffb000;   /* Electric Amber */
-    --accent-secondary: #00e5ff; /* Crisp Cyan */
-    --accent-tertiary: #ff5500;  /* Burnt Orange */
+    --accent-primary: #ffb000;   
+    --accent-secondary: #00e5ff; 
+    --accent-tertiary: #ff5500;  
     --gradient-text: linear-gradient(to right, var(--accent-primary), var(--accent-tertiary));
     
     --font-mono: 'Fira Code', monospace;
